@@ -6,7 +6,7 @@ import os
 import tensorflow as tf
 
 # Run agent trained by behavior cloning and collect stats:
-#   e.g. python test_behavior_cloning.py Hopper-v2 --num_rollouts 5 --render
+# e.g. python test_behavior_cloning.py Hopper-v2 --num_rollouts 5 --render
 
 def main():
     parser = argparse.ArgumentParser()
